@@ -5,7 +5,7 @@ let pokeName = document.getElementById("name");
 
 
 const changePokemon = async () => {
-	let randomNumber = Math.ceil(Math.random() * 150) + 1; // 1 and 151
+	let randomNumber = Math.ceil(Math.random() * 806) + 1; // 1 and 151
 
 	let requestString = `https://pokeapi.co/api/v2/pokemon/${randomNumber}`;
 
